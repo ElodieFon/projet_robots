@@ -1,8 +1,7 @@
 
 body * {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 .hero {
@@ -36,7 +35,8 @@ img{
 .icons a img {
     max-width: 30px;
 }
-@media screen and (min-width : 900px) {
+
+@media screen and (min-width : 900px){
     body {
         background-color: #ffffff;
     }
@@ -63,8 +63,8 @@ img{
         text-align: left;
     }
     .hero p {
-    color: rgba(255, 255, 255, 0.758);
-    background-color: transparent;
+        color: rgba(255, 255, 255, 0.758);
+        background-color: transparent;
     }
     .conteneur-flex {
         min-height: 50vh;
@@ -88,17 +88,17 @@ img{
         position: relative;
     }
   .bandeau p {
-    max-width: 40%;
+        max-width: 40%;
   }
    .conteneur-flex-3 {
-    align-items: stretch;
+        align-items: stretch;
    }
    .learn-more {
-   width: max-content;
+        width: max-content;
     
-}
-footer {
-    min-height: 5vh;
-    margin-top: 5vh;
-}
+    }
+    footer {
+        min-height: 5vh;
+        margin-top: 5vh;
+    }
 }
