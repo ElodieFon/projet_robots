@@ -29,8 +29,11 @@ img{
     background-color: rgb(191, 238, 233); 
     
 }
-.icons a {
+.icons a , .card-contact a{
     text-decoration: none;
+} 
+.card-contact li {
+    list-style: none;
 }
 .icons a img {
     max-width: 30px;
@@ -43,6 +46,7 @@ img{
     main {
         max-width: 1300px;
         margin: auto;
+        min-height: 100vh;
     }
 
     .hero {
