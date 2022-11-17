@@ -32,13 +32,16 @@ img{
 .icons a , .card-contact a{
     text-decoration: none;
 } 
-.card-contact li {
+.card-contact li , .evenement li{ 
     list-style: none;
 }
 .icons a img {
     max-width: 30px;
 }
-
+.evenement img {
+    max-height: 200px;
+    width: auto;
+}
 @media screen and (min-width : 900px){
     body {
         background-color: #ffffff;
