@@ -1,7 +1,10 @@
+
 body * {
     margin: 0;
     padding: 0;
+    
 }
+
 .hero {
     background-image: url(../images/CoverStory_robots.jpg);
     background-position: center;
@@ -37,8 +40,8 @@ img{
     body {
         background-color: #ffffff;
     }
-    main  {
-        max-width: 80%;
+    main {
+        max-width: 1300px;
         margin: auto;
     }
 
